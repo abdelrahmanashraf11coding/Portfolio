@@ -26,6 +26,9 @@ section {
     min-height: 100vh;
     padding: 10rem 9% 2rem
 }
+.immg{
+    padding: 2rem;
+}
 /* header section code */
 .header{
     position: fixed;
@@ -60,7 +63,7 @@ section {
 }
 .navbar a:hover,
 .navbar a.active{
-    color: var(--text-color);
+    color: orange;
 }
 #menu-icon{
     font-size: 3.6rem;
