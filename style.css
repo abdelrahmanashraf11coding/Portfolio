@@ -157,6 +157,7 @@ section {
     letter-spacing: 0.1rem;
     font-weight: 600;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 .btn:hover{
     box-shadow: 0 0 1.6rem var(--main-color);
