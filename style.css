@@ -18,6 +18,35 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
+
+/* Light mode styles (default) */
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Style for the toggle button */
+  .toggle-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4c53af;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10000;
+    margin-top: 4.5rem;
+  }
+  
+
 body{
     background: var(--bg-color);
     color: var(--text-color);
@@ -58,8 +87,9 @@ section {
     font-size: 1.9rem;
     color: var(--bg-color);
     font-weight: 700;
-    margin-left: 4rem;
+    margin-left: 5rem;
     transition: 0.3s ease;
+    
 }
 .navbar a:hover,
 .navbar a.active{
@@ -169,7 +199,6 @@ section {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--snd-bg-color);
 }
 .about-img img{
     width: 25vw;
@@ -220,7 +249,6 @@ section {
 }
 .services-container .services-box {
     flex: 1 1 30rem;
-    background: var(--snd-bg-color);
     padding: 6rem 2rem 6rem;
     border-radius: 2rem;
     text-align: center;
@@ -243,9 +271,7 @@ section {
     margin: 1rem 0 3rem;
 }
 /* <!-- Testimonial  section code --> */
-.Testimonial{
-    background: var(--snd-bg-color);
-}
+
 .testimonial-box{
     background-size: cover;
     display: flex;
