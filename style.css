@@ -44,7 +44,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
     z-index: 10000;
-    margin-top: 4.5rem;
+    margin-top: 7.6rem;
   }
   
 
@@ -445,29 +445,7 @@ nav{
 }
 
 @media (max-width: 768px){
-    #menu-icon{
-        display: block;
-    }
-    .navbar{
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 255px;
-        min-height: 100vh;
-        flex-direction: column;
-        display: flex;
-        background: var(--main-color);
-        transition: all 0.5s ease;
-        backdrop-filter: blur(10px);
-    }
-    .navbar a{
-        display: block;
-        padding: 17px;
-        font-size: 22px;
-    }
-    .navbar .active{
-        right: 0;
-    }
+    /* #menu-icon{ */
     .Home{
         flex-direction: column;
     }
